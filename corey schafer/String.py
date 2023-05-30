@@ -5,6 +5,10 @@ print('Hello World')
 message = 'Hello World'
 print(message)
 
+# multiline comment
+print('''Hello,
+How are you ''')
+
 # To resolve mutiple quote issue 
 print("Hello's world")
 
@@ -23,3 +27,33 @@ print(message.upper())
 
 # Count
 print(message.count('Hello'))
+
+# Find
+print(message.find('World'))
+
+# Replace
+
+new_message = message.replace('World', 'Universe')
+
+print(new_message)
+
+# Concatination
+
+greeting = 'Hello'
+name = 'Abhishek'
+
+message = greeting + ', ' + name
+
+message1 = '{}, {}. Welcome!'.format(greeting, name)
+
+print(message)
+print(message1)
+
+# F string Formating
+greeting = 'Hello'
+name = 'Abhishek'
+
+message2 = f'{greeting}, {name.upper()}. Welcome!'
+
+print(message2)
+
